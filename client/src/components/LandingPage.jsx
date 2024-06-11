@@ -1,12 +1,15 @@
+
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/LandingPage.css';
+import '../styles/LandingPage.css'; 
 
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      <h1>Welcome to Company Directory</h1>
-      <Link to="/search">Search for Companies</Link>
+      <h1>Welcome to the Company Directory</h1>
+      <p>Your one-stop solution to find company information.</p>
+      <a href="https://sarafabazar.in/" target="_blank" rel="noopener noreferrer">
+        Visit Sarafabazar
+      </a>
     </div>
   );
 };
