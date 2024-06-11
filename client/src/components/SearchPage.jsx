@@ -32,6 +32,14 @@ const SearchPage = () => {
           </li>
         ))}
       </ul>
+      <a 
+        href="https://sarafabazar.in/collections/diamond-rings" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="external-link"
+      >
+        Visit Sarafabazar Diamond Rings Collection
+      </a>
     </div>
   );
 };
