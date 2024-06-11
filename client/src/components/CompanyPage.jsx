@@ -51,6 +51,21 @@ const CompanyPage = () => {
         />
         <button onClick={handleInquiry}>Send Inquiry</button>
       </div>
+      <div className="seller-links">
+        <h2>Seller Profiles</h2>
+        <ul>
+          <li>
+            <a href="https://sarafabazar.in/pages/seller-profile/dravya-diamond" target="_blank" rel="noopener noreferrer">
+              Dravya Diamond
+            </a>
+          </li>
+          <li>
+            <a href="https://sarafabazar.in/pages/seller-profile/aqua-gold" target="_blank" rel="noopener noreferrer">
+              Aqua Gold
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
